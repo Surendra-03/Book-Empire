@@ -1,6 +1,6 @@
 # Library Management System
 
-This project is made using React js and deployed at https://devrev-task-eta.vercel.app/. The frontend files are inside src folder.
+This project is made using React js and deployed at https://devrev-task-eta.vercel.app/. The frontend files are inside src folder. Only the frontend is implemented. Backend yet to be done! ^^
 
 # To run this project locally, follow these steps:-
 
@@ -19,9 +19,12 @@ Build a simple library management page where
 
 1. Search bar -> Connects the input given to Google Books Api and displays the results. [Extra Feature]
 2. Home Page -> Displays the collection of books in a card format with horizontal scrolling feature. [Extra Feature]
-3. View Books -> All books in the library are listed here. 
+3. View Books -> All books in the library are listed here. [Given Feature]
+              
               ● Pagination implemented: 10 results per page is listed. Page indexes are given below to change pages.
+              
               ● Filter search implemented: Filter the list of books based on Title, Author, Subject and Release date. Users can also see the total count of books based on each filter criteria.
+
 4. Login, Signup Page -> A simple frontend of login and signup page is displayed.
 5. Borrow Books -> The books user borrows (from home page - books collection) are displayed here. [Yet to be implemented]
 6. Navbar and Footer -> Simple and easy to navigate navigataion bar and a footer is designed.
