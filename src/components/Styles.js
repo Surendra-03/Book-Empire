@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     width: 100%;
-    background: #DDFFE7;
+    background: white;
     position: relative;
     font-family: roboto, sans-serif;
   }
@@ -25,7 +25,7 @@ export const Navbar = styled.div`
   top: 0;
   left: 0;
   padding: 0 4%;
-  background: #167D7F;
+  background: black;
   z-index: 9;
   display: flex;
   align-items: center;
@@ -66,7 +66,7 @@ export const SearchBox = styled.input`
   background: transparent;
   outline: none;
   height: 30px;
-  color: #fff;
+  color: black;
   width: 250px;
   text-transform: capitalize;
   font-size: 16px;
@@ -74,17 +74,17 @@ export const SearchBox = styled.input`
   transition: 0.2s;
 
   &::placeholder {
-    color: #98D7C2;
+    color: grey;
   }
 
   &:focus {
-    border-color: #98D7C2;
+    border-color: blue;
     width: 400px;
   }
 `;
 
 export const LoginLink = styled.a`
-  color: #fff;
+  color: white;
   opacity: 0.9;
   font-size: 16px;
   font-weight: 500;
@@ -98,7 +98,7 @@ export const FooterHeadContainer = styled.div`
   width: 100%;
   height: 80px;
   padding: 0 4%;
-  background: #167D7F;
+  background: gray;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -107,7 +107,7 @@ export const FooterHeadContainer = styled.div`
 `;
 
 export const FooterHeadText = styled.p`
-  color: #fff;
+  color: black;
   font-size: 14px;
   font-weight: 500;
   text-align: center;
@@ -127,7 +127,7 @@ export const ContentContainer = styled.div`
 
 export const HeadTitle = styled.h1`
   padding-left: 50px;
-  color: #167D7F;
+  color: black;
   text-align: center;
   text-transform: capitalize;
   margin-top: 80px;
@@ -144,7 +144,7 @@ export const HeadDescription = styled.p`
 `;
 
 export const Title = styled.h2`
-  color: #167D7F;
+  color: black;
   opacity: 0.9;
   padding-left: 0;
   text-transform: capitalize;
@@ -207,7 +207,7 @@ margin-bottom: 20px;
 export const BookName = styled.h2`
 font-size: 18px;
 margin-bottom: 5px;
-color: #29A0B1 ;
+color: black ;
 `;
 
 export const BooksViewList = styled.div`
@@ -246,7 +246,7 @@ export const CardBody = styled.div`
   top: 0;
   left: 0;
   z-index: 2;
-  background: linear-gradient(to bottom, rgba(4, 8, 15, 0), #98D7C2 90%);
+  background: linear-gradient(to bottom, rgba(4, 8, 15, 5), #98D7C2 90%);
   padding: 10px;
   transition: 0.5s;
 
@@ -256,7 +256,7 @@ export const CardBody = styled.div`
 `;
 
 export const CardName = styled.p`
-  color: #000;
+  color: white;
   font-size: 15px;
   font-weight: bold;
   text-transform: capitalize;
@@ -282,29 +282,29 @@ export const Label = styled.label`
   font-size: 18px;
   margin-bottom: 5px;
   margin-right: 10px;
-  color: #29A0B1;
+  color: black;
 `;
 
 export const Input = styled.input`
   padding: 10px;
   font-size: 18px;
   border: none;
-  border-left: 1px solid #98D7C2;
+  border-left: 1px solid ;
   background: transparent;
   outline: none;
   height: 30px;
-  color: #29A0B1;
+  color: grey;
   width: 250px;
   font-weight: 500;
   
   &::placeholder {
-    color: #98D7C2;
+    color: black;
   }
 `;
 
 export const Button = styled.button`
-  background-color: #167D7F;
-  color: #ffffff;
+  background-color: grey;
+  color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -315,7 +315,7 @@ export const Button = styled.button`
   align-items: center;
   
   &:hover {
-    background-color: #29A0B1;
+    background-color: black;
   }
 
   &:focus {

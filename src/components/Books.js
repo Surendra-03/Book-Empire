@@ -258,7 +258,7 @@ const Books = () => {
 
   useEffect(() => {
     filterBooks();
-  }, [filterCriteria]);
+  }, [filterCriteria,filteredBooks,currentPage]);
 
   // Calculate indexes for pagination
   const indexOfLastBook = currentPage * booksPerPage;

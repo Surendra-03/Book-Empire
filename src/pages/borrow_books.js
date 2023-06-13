@@ -10,7 +10,7 @@ const Borrow = () => {
         <div>
             <GlobalStyle />
             <NavbarHead />
-            <HeadTitle  style={{ marginTop: '130px' }}>Your Books</HeadTitle>
+            <HeadTitle  style={{ marginTop: '130px' }}> Books</HeadTitle>
             <FooterBottom />
         </div>
     );
